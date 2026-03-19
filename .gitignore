@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node
+node_modules/
+.next/
+
+# Data & outputs (large files)
+dataset/
+outputs/
+checkpoints/
+logs/
+*.pt
+*.db
+
+# System
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+
+# Misc
+*.log
+test_gen_*.png
+
+# Windows special files
+nul
